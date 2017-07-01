@@ -1,0 +1,19 @@
+.material-icons.medium {
+    font-size: 35px;
+    color: black;
+    cursor: pointer;
+}
+
+.signup {
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.nav-content {
+    padding-bottom: 10px;
+}
+
+.nav-extended {
+    background-color: white;
+    color: black;
+}

@@ -17,3 +17,13 @@
     background-color: white;
     color: black;
 }
+
+.phone-countries {
+    margin-top: 20px;
+}
+
+.btn-large {
+    width: 100%;
+    background-color: #ff00bb;
+    margin-top: 15px;
+}

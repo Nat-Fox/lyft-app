@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
     <!-- ICON materialize -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- select2 -->
+    <link rel="stylesheet" href="vendors/select2/css/select2.min.css">
     <!-- CSS -->
     <link href="assets/css/styleNat.css" rel="stylesheet">
 </head>
@@ -35,31 +37,31 @@
         <!-- dropdown countries -->
         <div class="container">
             <div class="row phone-countries">
-                <!-- countries -->
-                <div class="input-field col s4 m4">
-                    <select class="icons">
-                        <option value="" disabled selected> your option</option>
-                        <option value="" data-icon="images/sample-1.jpg" class="circle">example 1</option>
-                        <option value="" data-icon="images/office.jpg" class="circle">example 2</option>
-                        <option value="" data-icon="images/yuna.jpg" class="circle">example 3</option>
+                <div id="selector-wrapper" class="col top-mg s3">
+
+                    <select style="width: 100%" class="js-example-basic-single">
+                                        
                     </select>
                 </div>
-                <div class="input-field col s6 m6">
-                    <input type="text" name="" value="+56">
-                </div>
-            </div>
-            <p class="center">We'll send a text to verify your phone</p>
-        </div>
 
-        <a class="waves-effect waves-light btn-large">Next</a>
+                <div class="col s9">
+                    <input id="input-text" type="text" />
+                </div>
+                <p class="center">We'll send a text to verify your phone</p>
+            </div>
+
+            <a class="waves-effect waves-light btn-large">Next</a>
     </section>
+
+
 
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
-
+    <!-- select2 -->
+    <script src="vendors/select2/js/select2.full.min.js"></script>
     <!-- JS -->
     <script src="assets/js/flags.js" type="text/javascript"></script>
     <script src="assets/js/mainNat.js" type="text/javascript"></script>

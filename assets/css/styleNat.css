@@ -27,3 +27,16 @@
     background-color: #ff00bb;
     margin-top: 15px;
 }
+
+.top-mg {
+    margin-top: 18px
+}
+
+.img-flag {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.center-content {
+    text-align: center;
+}

@@ -44,13 +44,17 @@
                     </select>
                 </div>
 
-                <div class="col s9">
-                    <input id="input-text" type="text" />
+                <div class="col s3">
+                    <input id="input-code" type="text" disabled value="+56" />
+                </div>
+                <div class="col s6">
+                    <input id="input-number" maxlength="10" type="number" />
                 </div>
                 <p class="center">We'll send a text to verify your phone</p>
+                <p id="error" class="center error-msg ocultar">El número no es válido para el país seleccionado</p>
             </div>
 
-            <a class="waves-effect waves-light btn-large">Next</a>
+            <a id="btn-next" class="waves-effect waves-light btn-large disabled">Next</a>
     </section>
 
 
@@ -62,6 +66,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
     <!-- select2 -->
     <script src="vendors/select2/js/select2.full.min.js"></script>
+    <!-- lib phone number -->
+    <script src="vendors/libphonenumber/libphonenumber.js"></script>
     <!-- JS -->
     <script src="assets/js/flags.js" type="text/javascript"></script>
     <script src="assets/js/mainNat.js" type="text/javascript"></script>

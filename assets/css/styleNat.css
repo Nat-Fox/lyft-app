@@ -40,3 +40,11 @@
 .center-content {
     text-align: center;
 }
+
+.error-msg {
+    color: #c62828;
+}
+
+.ocultar {
+    display: none;
+}

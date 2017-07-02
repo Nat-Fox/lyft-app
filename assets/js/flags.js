@@ -1,4 +1,46 @@
 var flagsCountries = [{
+        "code": "+56",
+        "text": "Chile",
+        "url": "../svg-flags/cl.svg",
+        "id": "cl"
+    },
+    {
+        "code": "+51",
+        "text": "Peru",
+        "url": "../svg-flags/pe.svg",
+        "id": "pe"
+    },
+    {
+        "code": "+52",
+        "text": "Mexico",
+        "url": "../svg-flags/mx.svg",
+        "id": "mx"
+    },
+    {
+        "code": "+1",
+        "text": "United States",
+        "url": "../svg-flags/us.svg",
+        "id": "us"
+    },
+    {
+        "code": "+1",
+        "text": "Canada",
+        "url": "../svg-flags/ca.svg",
+        "id": "ca"
+    },
+    {
+        "code": "+36",
+        "text": "Hungary",
+        "url": "../svg-flags/hu.svg",
+        "id": "hu"
+    },
+    {
+        "code": "+971",
+        "text": "United Arab Emirates",
+        "url": "../svg-flags/ae.svg",
+        "id": "ae"
+    },
+    {
         "code": "+7 840",
         "text": "Abkhazia",
         "url": "../svg-flags/abk.svg",
@@ -240,12 +282,6 @@ var flagsCountries = [{
         "id": "cm"
     },
     {
-        "code": "+1",
-        "text": "Canada",
-        "url": "../svg-flags/ca.svg",
-        "id": "ca"
-    },
-    {
         "code": "+238",
         "text": "Cape Verde",
         "url": "../svg-flags/cv.svg",
@@ -269,12 +305,7 @@ var flagsCountries = [{
         "url": "../svg-flags/td.svg",
         "id": "td"
     },
-    {
-        "code": "+56",
-        "text": "Chile",
-        "url": "../svg-flags/cl.svg",
-        "id": "cl"
-    },
+
     {
         "code": "+86",
         "text": "China",
@@ -588,12 +619,6 @@ var flagsCountries = [{
         "id": "hk"
     },
     {
-        "code": "+36",
-        "text": "Hungary",
-        "url": "../svg-flags/hu.svg",
-        "id": "hu"
-    },
-    {
         "code": "+354",
         "text": "Iceland",
         "url": "../svg-flags/is.svg",
@@ -827,12 +852,7 @@ var flagsCountries = [{
         "url": "../svg-flags/yt.svg",
         "id": "yt"
     },
-    {
-        "code": "+52",
-        "text": "Mexico",
-        "url": "../svg-flags/mx.svg",
-        "id": "mx"
-    },
+
     {
         "code": "+691",
         "text": "Micronesia",
@@ -1025,12 +1045,7 @@ var flagsCountries = [{
         "url": "../svg-flags/py.svg",
         "id": "py"
     },
-    {
-        "code": "+51",
-        "text": "Peru",
-        "url": "../svg-flags/pe.svg",
-        "id": "pe"
-    },
+
     {
         "code": "+63",
         "text": "Philippines",
@@ -1315,22 +1330,10 @@ var flagsCountries = [{
         "id": "ua"
     },
     {
-        "code": "+971",
-        "text": "United Arab Emirates",
-        "url": "../svg-flags/ae.svg",
-        "id": "ae"
-    },
-    {
         "code": "+44",
         "text": "United Kingdom",
         "url": "../svg-flags/gb.svg",
         "id": "gb"
-    },
-    {
-        "code": "+1",
-        "text": "United States",
-        "url": "../svg-flags/us.svg",
-        "id": "us"
     },
     {
         "code": "+598",

@@ -38,7 +38,7 @@ $(document).ready(function() {
         flagsCountries.forEach(function(country) {
             if (selected.params.data.id == country.id) {
                 console.log(country.code);
-                $('#input-text').val(country.code);
+                $('#input-code').val(country.code);
             }
         })
     });
@@ -49,4 +49,43 @@ $(document).ready(function() {
         wrapper.addClass('s3');
         wrapper.removeClass('s12');
     });
+
+
+    console.log(window.LibPhoneNumber);
+
+    $('#input-number').on('keyup', function(event) {
+
+        // val del id
+        console.log('selectid', select.val());
+
+        // crea una instancia de libphonenumber
+        var phoneUtil = window.LibPhoneNumber.PhoneNumberUtil.getInstance();
+        // numero, id
+
+
+        console.log('input value -> ', $(this).val());
+        console.log('country code -> ', select.val());
+
+        // Activar el boton si el formato es valido
+        try {
+            var parsedNumber = phoneUtil.parse($(this).val(), select.val());
+            // console.log(phoneUtil.isValidNumber('validation', parsedNumber))
+
+            // revisamos si un numero es valido o no
+            if (phoneUtil.isValidNumber(parsedNumber)) {
+                $('#btn-next').removeClass('disabled');
+                $('#error').addClass('ocultar');
+            } else {
+                $('#error').removeClass('ocultar');
+            }
+
+        } catch (error) {
+            console.log('error', error);
+            $('#btn-next').addClass('disabled');
+            $('#error').removeClass('ocultar');
+        }
+
+    });
+
+
 });

@@ -3,7 +3,7 @@ function initMap(){
     center: {lat: -34.397, lng: 150.644},
     zoom: 18
   });
-	var input1 = (document.getElementById("origen"));
+  var input1 = (document.getElementById("origen"));
     var autocomplete = new google.maps.places.Autocomplete(input1);
         autocomplete.bindTo("bounds", map);
 
@@ -30,12 +30,11 @@ function initMap(){
 
     handleLocationError(false, infoWindow, map.getCenter());
   }
-  document.getElementById("trazar").addEventListener("click",function(){
+  document.getElementById("set").addEventListener("click",function(){
   	alert("aqui debe trazar la ruta");
   });
-
-  
 }
+
 function handleLocationError(browserHasGeolocation, infoWindow, pos) {
   infoWindow.setPosition(pos);
   infoWindow.setContent(browserHasGeolocation ?

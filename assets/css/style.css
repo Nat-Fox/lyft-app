@@ -1,5 +1,42 @@
-/*
-test
-body {
-    background-color: red;
-}*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.logo-img {
+    max-height: 100px;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+.mobile-view{
+	height: 100vh;
+	background-image: url("../img/lyft_home.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+#login{
+	background-color: transparent;
+	border: 1px solid #fff;
+	padding: 0 30px;
+	margin: 0 10px 0 5px;
+	width: 40%;
+
+}
+
+#signup{
+	background: linear-gradient(to right, #7300BF, #E500BF);
+	padding: 0 30px;
+	margin: 0 5px 0 10px;
+	width: 40%;
+	
+}
+
+.botones{
+	height: 50px;
+	margin-top: 415px;
+	padding: 0 5px;
+}

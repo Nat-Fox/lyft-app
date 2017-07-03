@@ -1,0 +1,38 @@
+/*Compartiendo estilos de phoneNat con phone Fran*/
+
+.material-icons.medium {
+    font-size: 35px;
+    color: black;
+    cursor: pointer;
+}
+
+.signup {
+    font-size: 20px;
+}
+
+.nav-content {
+    padding-bottom: 10px;
+}
+
+.nav-extended {
+    background-color: white;
+    color: black;
+}
+
+.top-mg {
+    margin-top: 18px
+}
+
+.center-content {
+    text-align: center;
+}
+
+#btn-next-code {
+    width: 100%;
+    background-color: #ff00bb;
+    margin-top: 15px;
+}
+
+#phone-signup {
+    margin-bottom: 20px;
+}

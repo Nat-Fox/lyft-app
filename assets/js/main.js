@@ -1,15 +1,14 @@
 //validacion formulario
 $(document).ready(function() {
-	var validacion = function(){
-		var nombre = $(/*input nombre*/).val();
-		if(nombre =! /^[a-zA-Z ]+$/ || nombre = ""){
-			alert("Debes escribir un nombre valido")
-		}
-		else{
-			alert("usuario correcto");
-		};
-	}
-	
+    var validacion = function() {
+        var nombre = $( /*input nombre*/ ).val();
+        if (nombre = !/^[a-zA-Z ]+$/ || nombre == "") {
+            alert("Debes escribir un nombre valido")
+        } else {
+            alert("usuario correcto");
+        };
+    }
+
 });
 
 

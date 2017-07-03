@@ -1,0 +1,50 @@
+.material-icons.medium {
+    font-size: 35px;
+    color: black;
+    cursor: pointer;
+}
+
+.signup {
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.nav-content {
+    padding-bottom: 10px;
+}
+
+.nav-extended {
+    background-color: white;
+    color: black;
+}
+
+.phone-countries {
+    margin-top: 20px;
+}
+
+.btn-large {
+    width: 100%;
+    background-color: #ff00bb;
+    margin-top: 15px;
+}
+
+.top-mg {
+    margin-top: 18px
+}
+
+.img-flag {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.center-content {
+    text-align: center;
+}
+
+.error-msg {
+    color: #c62828;
+}
+
+.ocultar {
+    display: none;
+}

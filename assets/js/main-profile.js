@@ -2,22 +2,22 @@
   $(".button-collapse").sideNav();
   // Initialize collapsible (uncomment the line below if you use the dropdown variation)
   //$('.collapsible').collapsible();
-  
+
   /*al seleccionar la nueva imagen atravez de jquery 
   debe eleminar la anterior y hacer que exista la nueva*/
 
-  $(document).ready(function(){
-	$('#btn-edit').click(function(event) {
-  		event.preventDefault();
-  		$('#modal1').modal();
+  $(document).ready(function() {
+      $('#btn-edit').click(function(event) {
+          event.preventDefault();
+          $('#modal1').modal();
 
-  		var imagenSubida = $('#img-subida').val();
+          var imagenSubida = $('#img-subida').val();
 
-  		$('#img-cambiada').click(function(event) {
-  			localStorage= imagenSubida; 
-  		});
-  		
-  		/*$('#modal1').click(function(e){
+          $('#img-cambiada').click(function(event) {
+              localStorage = imagenSubida;
+          });
+
+          /*$('#modal1').click(function(e){
   			console.log('inicio');
   			var uno = $('#cambio-dos').val();
   			var dos = $('#cambio-tres').val();
@@ -38,6 +38,5 @@
 	    		$("#cambio-cuatro").addClass('img-cuatro');
 	    		console.log('cuatro');
 	    	}*/
-    	});
-	});
-	 
+      });
+  });

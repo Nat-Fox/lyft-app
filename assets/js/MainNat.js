@@ -87,5 +87,16 @@ $(document).ready(function() {
 
     });
 
+    // Almacenar los numeros en local storage una vez que apretamos next
+    $('#btn-next').on('click', function(event) {
+        var numberPhone = $('#input-number').val();
+        var codeCountry = $('#input-code').val();
+
+        console.log(numberPhone);
+        localStorage.number = numberPhone;
+        localStorage.code = codeCountry;
+        console.log('local', codeCountry + localStorage.number);
+    });
+
 
 });

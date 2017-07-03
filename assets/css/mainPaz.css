@@ -28,7 +28,6 @@
     width: 41px;
     height: 39px;
 }
-
 #logo{
 	position: relative;
     z-index: 100;
@@ -62,6 +61,10 @@
     border:none;
     z-index: 100;
 }
+#destino:focus{
+
+}
+
 #set{
 	position: relative;
 	background-color: #8178aa;

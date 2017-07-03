@@ -1,0 +1,79 @@
+*{
+	margin:0;
+	padding: 0;
+}
+#user{
+	position: relative;
+    z-index: 100;
+    border-radius: 100%;
+    width: 41px;
+    height: 37px;
+    margin-top: 17px;
+}
+#gift{
+	position: relative;
+    z-index: 100;
+    font-size: 31px;
+    margin-top: 3px;
+    margin-left: -5px;
+    color: #474c62;
+}
+#cinta{
+	position: relative;
+    z-index: 100;
+    background-color: white;
+    border-radius: 95%;
+    margin-top: 16px;
+    margin-left: 46px;
+    width: 41px;
+    height: 39px;
+}
+#logo{
+	position: relative;
+    z-index: 100;
+    width: 48px;
+    margin-top: 21px;
+    margin-left: 20px;
+}
+#map{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+#navi{
+	position: relative;
+    z-index: 100;
+    margin-top: 360px;
+    margin-left: 269px;
+    font-size: 29px;
+    transform: rotate(51deg);
+	color: #474c62;
+}
+#destino{
+	position: relative;
+	background-color: white;
+    border-radius: 7px;
+    padding-top: 13px;
+    margin-top: 7px;
+    border:none;
+    z-index: 100;
+}
+#destino:focus{
+
+}
+
+#set{
+	position: relative;
+	background-color: #8178aa;
+    border-radius: 7px;
+    height: 54px;
+    width: 100%;
+    margin: -12px 0;
+    color: white;
+    font-size: 22px;
+    border: none;
+    z-index: 101;
+}

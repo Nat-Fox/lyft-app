@@ -14,25 +14,29 @@
 	background-image: url("../img/lyft_home.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 
 }
 
 #login{
 	background-color: transparent;
 	border: 1px solid #fff;
-	padding: 0 35px;
-	margin-right: 10px;
+	padding: 0 30px;
+	margin: 0 10px 0 5px;
+	width: 40%;
+
 }
 
 #signup{
 	background: linear-gradient(to right, #7300BF, #E500BF);
-	padding: 0 35px;
-	margin-left: 10px;
+	padding: 0 30px;
+	margin: 0 5px 0 10px;
+	width: 40%;
 	
 }
 
 .botones{
-	margin-top: 350px;
-
-
+	height: 50px;
+	margin-top: 415px;
+	padding: 0 5px;
 }

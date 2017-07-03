@@ -1,0 +1,49 @@
+
+
+.img-usuario{
+	height: 300px;
+	width: 100%;
+	background-image: url(../img/gato.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+}
+
+.btn-profile{
+	color: #000;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 20;
+	background-color: #f3f3f5;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+/*.img-dos{
+	height: 300px;
+	width: 100%;
+	background-image: url(../img/gato2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.img-tres{
+	height: 300px;
+	width: 100%;
+	background-image: url(../img/gato3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.img-cuatro{
+	height: 300px;
+	width: 100%;
+	background-image: url(../img/gato4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}*/

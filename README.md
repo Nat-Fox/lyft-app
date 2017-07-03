@@ -18,3 +18,10 @@ Trabajada por:Valentina Spuler
 
 https://github.com/Nat-Fox/lyft-app
 Rama master de proyecto
+
+Nat-Fox.github.io/lyft-app
+Gh-pages
+
+Diseño:
+Desarrollado bajo framework Materialize
+

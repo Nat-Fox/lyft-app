@@ -23,7 +23,7 @@ $(document).ready(function() {
                 return true;
             }
         };
-        nombre();
+
 
         function apellido() {
             var apellido = $('#last-name').val();
@@ -41,7 +41,7 @@ $(document).ready(function() {
                 return true;
             }
         };
-        apellido();
+
 
         function correo() {
             var correo = $('#email').val();
@@ -56,7 +56,7 @@ $(document).ready(function() {
                 return false;
             }
         };
-        correo();
+
 
         function testcheck() {
             if (!jQuery("#filled-in-box").is(":checked")) {
@@ -66,12 +66,18 @@ $(document).ready(function() {
                 return true;
             }
         };
-        testcheck();
+
+
+
+        if (nombre() && apellido() && correo() && testcheck()) {
+            window.location.href = "mapUser.html";
+        }
+
 
         ///// VACIAR CAMPOS
-        $('#first-name').val("");
-        $('#last-name').val("");
-        $('#email').val("");
+        // $('#first-name').val("");
+        // $('#last-name').val("");
+        // $('#email').val("");
     });
 
 });

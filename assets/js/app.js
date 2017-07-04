@@ -72,7 +72,6 @@ $(document).ready(function() {
         $('#first-name').val("");
         $('#last-name').val("");
         $('#email').val("");
-
     });
 
 });
